@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (5.4.0)
+  - Bagel (1.4.0):
+    - CocoaAsyncSocket
+  - CocoaAsyncSocket (7.6.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - MaterialComponents/AnimationTiming (119.1.2)
+  - MaterialComponents/Availability (119.1.2)
+  - MaterialComponents/private/Math (119.1.2)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (119.1.2)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+FilledStyle (119.1.2)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+UnderlinedStyle"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (119.1.2)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (119.1.2)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+UnderlinedStyle (119.1.2)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextFields (119.1.2)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (119.1.2)"
+  - "MaterialComponents/TextControls+FilledTextFields (119.1.2)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+FilledStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MDFInternationalization (2.0.0)
+  - NeumorphismKit (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Bagel
+  - IQKeyboardManagerSwift
+  - "MaterialComponents/TextControls+FilledTextFields"
+  - NeumorphismKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bagel
+    - CocoaAsyncSocket
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MDFInternationalization
+    - NeumorphismKit
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Bagel: c3fa6bcbd52db9ca976edbafd7638f0553ded101
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MaterialComponents: 8936712ec298476993950e2d5d77e348d8e84577
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  NeumorphismKit: c5d69c7260b5c27d90106aded6f9bd4a1eab458d
+
+PODFILE CHECKSUM: f6b8090e5cc3e7dc235ce92b5373b128b050b978
+
+COCOAPODS: 1.10.0

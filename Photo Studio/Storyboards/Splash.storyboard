@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DF6-uq-jH5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="QFr-mt-chI">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="DF6-uq-jH5" customClass="SplashViewController" customModule="Photo_Studio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tzz-ib-aNT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="6JZ-8A-dCY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="B2I-TV-fQ7">
+                                <rect key="frame" x="50" y="373" width="314" height="160"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KT5-w5-VBB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6JZ-8A-dCY" firstAttribute="leading" secondItem="KT5-w5-VBB" secondAttribute="leading" id="6yj-b7-3hF"/>
+                            <constraint firstItem="6JZ-8A-dCY" firstAttribute="trailing" secondItem="KT5-w5-VBB" secondAttribute="trailing" id="YtH-cO-vxL"/>
+                            <constraint firstItem="B2I-TV-fQ7" firstAttribute="centerY" secondItem="KT5-w5-VBB" secondAttribute="centerY" id="dk7-FT-J0a"/>
+                            <constraint firstItem="B2I-TV-fQ7" firstAttribute="leading" secondItem="KT5-w5-VBB" secondAttribute="leading" constant="50" id="qhC-cn-UGF"/>
+                            <constraint firstItem="KT5-w5-VBB" firstAttribute="trailing" secondItem="B2I-TV-fQ7" secondAttribute="trailing" constant="50" id="tLW-3Z-Xd2"/>
+                            <constraint firstItem="6JZ-8A-dCY" firstAttribute="top" secondItem="Tzz-ib-aNT" secondAttribute="top" id="ukZ-mT-tHG"/>
+                            <constraint firstAttribute="bottom" secondItem="6JZ-8A-dCY" secondAttribute="bottom" id="wpr-cj-2WK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3T9-j7-W67" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208.69565217391306" y="141.96428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="375" height="812"/>
+        <image name="logo" width="320" height="160"/>
+    </resources>
+</document>
